@@ -1,4 +1,48 @@
-header{
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
     background-color: #081767;
     color: white;
+    padding: 24px 0;
+}
+
+.cabecalho-escola{
+    display: inline-block;
+}
+.lista-texto{
+    display:inline-block;
+    list-style: none;
+}
+.cabecalho-imagem{
+    width: 200px;
+    height: 200px;
+}
+
+.cabecalho-escola{
+    display: inline-block;
+    list-style: none;
+}
+
+.cabecalho-lista-escola{
+    padding: 20px 40px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    list-style: none;
+    justify-content: left;
+}
+
+.cabecalho-lista-menu{
+    padding: 10px 40px;
+
+}
+
+.lista-principal{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
 }
